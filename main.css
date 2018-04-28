@@ -1,0 +1,58 @@
+body {
+  background-color: peachpuff;
+}
+
+#navList > li {
+  display: inline-block;
+  margin-right: 2em;
+  padding: 0.5em 1.5em;
+  font-size: 1.5em;
+  font-family: 'Times New Roman', Times, serif;
+  border-style: solid;
+  border-color: rgb(108, 114, 29);
+  background-color: rgb(211, 224, 31);
+  cursor: pointer;  
+}
+
+#navList {
+  margin-bottom: 3em;
+  background-color: rgb(129, 65, 23);
+}
+
+#navList > li:hover {
+  background-color: rgb(141, 151, 47);
+}
+
+#grid-container {
+  margin-top: 1.5em;
+  display: grid;
+  grid-template-columns: 20em 20em 20em 20em;
+  height: 90em;
+  align-content: space-around;
+  justify-content: space-around;
+}
+
+#grid-container > div {  
+  padding: 0.5em;  
+  border: double;
+}
+
+#grid-container > div:hover {  
+  background-color: rgb(168, 142, 119);
+  cursor: pointer;
+}
+
+#grid-container > div > a {
+  display: block;
+  text-decoration: none;
+  color: rgb(158, 62, 14);
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.title {
+  font-weight: bold;
+}
+
+#sorting {
+  text-align: center;
+}
