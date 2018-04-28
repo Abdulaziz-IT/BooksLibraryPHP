@@ -1,0 +1,16 @@
+{
+    "name": "ubuntu/books-library-php",
+    "description": "Last assignment of CPIT405",
+    "type": "project",
+    "require-dev": {
+        "heroku/heroku-buildpack-php": "^135.0"
+    },
+    "license": "KAU",
+    "authors": [
+        {
+            "name": "Abdulaziz Alshememry",
+            "email": "abdulaziz.wal@gmail.com"
+        }
+    ],
+    "require": {}
+}
